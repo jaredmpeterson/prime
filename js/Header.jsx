@@ -5,11 +5,16 @@ const Header = React.createClass({
   render () {
     return (
       <header className='header'>
-        <h1 className='brand'>
+        <h1 className='prime'>
           <Link to='/' className='brand-link'>
-            Prime Diet
+            PRIME Diet
           </Link>
         </h1>
+        <h2 className='header-info'>
+          <Link to='/info'>
+            Info
+          </Link>
+        </h2>
       </header>
     )
   }
