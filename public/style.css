@@ -53,6 +53,7 @@ html {
   background-color: rgba(220, 220, 220, .8);
   padding: 15px 30px;
   border-radius: 5px;
+  text-align: left;
 }
 
 .header {
@@ -91,4 +92,21 @@ html {
 .header-info>a {
   color: #020200;
   text-decoration: none;
+}
+
+#quote {
+  color: #7B6840;
+  line-height: 5px;
+  text-align: right;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  text-align: left;
 }

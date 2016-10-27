@@ -6,7 +6,7 @@ const Landing = () => (
     <h1 className='title'>PRIME Diet</h1>
     <p>"A journey of a thousand miles begins with a single step."</p>
     <p id='quote'>- Lao-Tsu</p>
-    <Link to='/diet' className='start'>START</Link>
+    <Link to='/info' className='start'>START</Link>
   </div>
 )
 
