@@ -3,8 +3,10 @@ const { Link } = require('react-router')
 
 const Landing = () => (
   <div className='prime-info'>
-    <h1 className='title'>Prime Diet</h1>
-    <Link to='/diet' className='browse-all'> See Diet</Link>
+    <h1 className='title'>PRIME Diet</h1>
+    <p>"A journey of a thousand miles begins with a single step."</p>
+    <p id='quote'>- Lao-Tsu</p>
+    <Link to='/diet' className='start'>START</Link>
   </div>
 )
 
