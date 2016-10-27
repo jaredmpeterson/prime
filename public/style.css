@@ -17,5 +17,28 @@ html {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #333;
+  color: papayawhip;
+}
+
+.prime-info {
+  background-color: rgba(220, 220, 220, .7);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.title {
+  color: #B10DC9;
+  font-family: Oldtown, fantasy;
+  font-weight: normal;
+}
+
+.browse-all {
+  margin-top: 15px;
+  padding: 10px 40px;
+  background-color: #333;
+  color: #fafafa;
+  border-color: transparent;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
 }
