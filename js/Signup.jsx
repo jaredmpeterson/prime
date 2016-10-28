@@ -26,7 +26,7 @@ class Signup extends React.Component {
           type='text'
           placeholder='John Smith'
           onChange={this.handleChange} /><br />
-        <button onClick={this.handleSubmit}>
+        <button className='button' onClick={this.handleSubmit}>
           Submit
         </button>
       </div>
