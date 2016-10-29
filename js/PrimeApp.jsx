@@ -5,6 +5,7 @@ const Diet = require('./Diet')
 const Info = require('./Info')
 const Landing = require('./Landing')
 const Layout = require('./Layout')
+const Recipes = require('./Recipes')
 const { Router, Route, IndexRoute, hashHistory } = require('react-router')
 
 const Prime = React.createClass({
@@ -13,6 +14,7 @@ const Prime = React.createClass({
       <Router history={hashHistory}>
         <Route path='/' component={Layout}>
           <IndexRoute component={Landing} />
+          <Route path='/recipes' component={Recipes} />
           <Route path='/diet' component={Diet} />
           <Route path='/info' component={Info} />
           <Route path='/signup' component={Signup} />

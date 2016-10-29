@@ -2,7 +2,7 @@ const React = require('react')
 const { Link } = require('react-router')
 
 const Header = React.createClass({
-  render() {
+  render () {
     return (
       <header className='header'>
         <h1 className='brand'>
@@ -11,16 +11,16 @@ const Header = React.createClass({
           </Link>
         </h1>
         <nav className='nav'>
-          <h2 className='nav__item'>
+          <h3 className='nav__item'>
             <Link to='/diet' className='nav__item--link'>
               Diet
             </Link>
-          </h2>
-          <h2 className='nav__item'>
+          </h3>
+          <h3 className='nav__item'>
             <Link to='/signup' className='nav__item--link'>
               Register
             </Link>
-          </h2>
+          </h3>
         </nav>
       </header>
     )
