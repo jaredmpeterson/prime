@@ -129,11 +129,26 @@ label {
   text-align: left;
 }
 
+.search__input {
+  min-width: 250px;
+  max-width: 350px;
+  width: 33%;
+  padding: 4px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
 .recipes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
+}
+
+.recipes__search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .recipes > a {

@@ -17,6 +17,11 @@ const Header = React.createClass({
             </Link>
           </h3>
           <h3 className='nav__item'>
+            <Link to='/Recipes' className='nav__item--link'>
+              Recipes
+            </Link>
+          </h3>
+          <h3 className='nav__item'>
             <Link to='/signup' className='nav__item--link'>
               Register
             </Link>

@@ -18,7 +18,7 @@ class Signup extends React.Component {
 
   render () {
     return (
-      <div className='prime-info'>
+      <div className='box'>
         <h2 className='title'>Register</h2>
         <label htmlFor='name'>Name </label>
         <input
