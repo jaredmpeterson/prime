@@ -39,8 +39,8 @@ const Diet = React.createClass({
     return (
       <div className='container'>
         <div className='diet__form'>
-          <h2>Diet</h2>
-          <div>
+          <h2>Calculate Your Intake</h2>
+          <div className='diet__form'>
             <label htmlFor='weight'>Weight: </label>
             <input
               type='text'
