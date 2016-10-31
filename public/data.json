@@ -48,7 +48,7 @@
       "title": "Best Tomato Sauce EVER",
       "category": "Dressings and Sauces",
       "description": "",
-      "picture": "",
+      "picture": "btse.png",
       "argID": "arg004",
       "ingredients": [
         ".5-1 cup organic tomato sauce (The best choice is Pomi, which comes in a carton, not a can.)",
@@ -64,19 +64,32 @@
       "title": "Dirty Guacamole",
       "category": "Dressings and Sauces",
       "description": "Oh, HELL YES. Is there anything better than guacamole? Don’t bother thinking about the question, because the answer is no, there is not. As far as dips go, guac is the bees knees: it’s delish, full of healthy fat, and looks awesome in a stone bowl.",
-      "picture": "",
+      "picture": "dg.png",
       "argID": "arg005",
-      "ingredients": [],
+      "ingredients": [
+        "Two avocados",
+        "1/2 cup Fresh packed store bought salsa (just tomatoes, onions, herbs and sometimes jalapenos)",
+        "Juice of 1 small lime",
+        "Chopped cilantro",
+        "Sea salt to taste"
+      ],
       "instructions": "Mix and eat. Seriously. Make sure you put the pit in the bowl if you don't intend to eat it right away."
     },
     {
-      "title": "Turkey Kabob (Persian Meatballs)",
+      "title": "Turkey Meatballs",
       "category": "Main Dishes",
-      "description": "",
-      "picture": "",
+      "description": "These meatballs are made of turkey, but you could also use lamb or pork, depending on which animals you like to eat.",
+      "picture": "tk.png",
       "argID": "arg006",
-      "ingredients": [],
-      "instructions": ""
+      "ingredients": [
+        "1 lb. extra lean ground turkey",
+        "1/4 cup chopped cilantro",
+        "1/4 cup chopped onion",
+        "1 egg",
+        "big pinch each of sea salt, cumin, pepper",
+        "coconut flour (optional)"
+      ],
+      "instructions": "Combine everything but the coconut flour in a medium bowl. Don't be a wuss, just do it with your hands. Roll the meat into medium-large sized balls, coat lightly with coconut flour if desired. Line a 9x13 dish with aluminum foil; place meatballs in the dish. Bake at 400 degrees for about 25 min or until cooked through. Serve with Best Tomato Sauce Ever."
     }
   ]
 }
