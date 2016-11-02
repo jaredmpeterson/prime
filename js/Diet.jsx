@@ -22,10 +22,10 @@ const Diet = React.createClass({
     var bfp = this.state.bodyfat
     var mci = data.calories[bfp]
     var lbm = function (weight, bfp) {
-      return (((100 - bfp) / 100) * weight)
+      return Math.round(((100 - bfp) / 100) * weight)
     }
     var fm = function (weight, bfp) {
-      return (weight - (weight * ((100 - bfp) / 100)))
+      return Math.round(weight - (weight * ((100 - bfp) / 100)))
     }
     var cal = function (mci) {
       return lbm(weight, bfp) * mci
