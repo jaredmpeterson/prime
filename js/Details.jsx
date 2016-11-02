@@ -4,7 +4,7 @@ class Details extends React.Component {
 
   render () {
     const params = this.props.params || {}
-    const { title, category, description, picture, argID, ingredients, instructions } = params
+    const { title, category, description, picture, ingredients, instructions } = params
 
     return (
       <div className='container'>
