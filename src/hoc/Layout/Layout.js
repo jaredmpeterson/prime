@@ -4,6 +4,7 @@ import Aux from "../Aux/Aux";
 import classes from "./Layout.css";
 import Toolbar from "../../components/Navigation/Toolbar/Toolbar";
 import Sidedrawer from "../../components/Navigation/Sidedrawer/Sidedrawer";
+import Background from "../../components/UI/Background/Background";
 
 class Layout extends Component {
   state = {
@@ -23,6 +24,7 @@ class Layout extends Component {
   render() {
     return (
       <Aux>
+        <Background />
         <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler} />
         <Sidedrawer
           closed={this.sideDrawerClosedHandler}

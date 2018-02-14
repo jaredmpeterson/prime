@@ -1,0 +1,36 @@
+.Landing {
+  background-color: rgba(220, 220, 220, 0.8);
+  padding: 15px 30px;
+  border-radius: 5px;
+  width: 35%;
+  max-width: 1440px;
+}
+
+.Landing h1 {
+  color: var(--gold);
+  font-family: var(--oswald);
+  font-weight: normal;
+}
+
+.Citation {
+  padding-left: 25px;
+  color: var(--gold);
+  line-height: 5px;
+  text-align: right;
+}
+
+.Button {
+  margin-top: 0.4rem;
+  padding: 10px 40px;
+  background-color: #020200;
+  color: #fafafa;
+  border-color: transparent;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+  /* box-sizing: border-box; */
+}
+
+.Button:hover {
+  background-color: var(--gold);
+}
