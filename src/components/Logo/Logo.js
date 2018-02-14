@@ -1,10 +1,10 @@
 import React from "react";
 
 import scale from "../../Scale.svg";
-import "./Logo.css";
+import classes from "./Logo.css";
 
 const logo = props => (
-  <div className="Logo">
+  <div className={classes.Logo}>
     <img src={scale} alt="Prime Scale" />
   </div>
 );
