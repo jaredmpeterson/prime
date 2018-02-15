@@ -1,0 +1,45 @@
+.Diet {
+  position: absolute;
+  top: 4rem;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  overflow-y: scroll;
+  background-color: rgba(220, 220, 220, 0.8);
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.Diet div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-flow: column wrap; */
+}
+
+.Input {
+  width: 20%;
+  min-width: 20px;
+  max-width: 40px;
+  padding: 4px;
+  margin-right: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.Button {
+  padding: 0.5rem 1rem;
+  background-color: #020200;
+  color: #fafafa;
+  border-color: transparent;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+}
