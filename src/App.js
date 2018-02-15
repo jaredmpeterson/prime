@@ -6,6 +6,7 @@ import Layout from "./hoc/Layout/Layout";
 import Landing from "./components/UI/Landing/Landing";
 import Info from "./containers/Info/Info";
 import Diet from "./containers/Diet/Diet";
+import Recipes from "./containers/Recipes/Recipes";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <Route path="/" exact component={Landing} />
             <Route path="/info" component={Info} />
             <Route path="/diet" component={Diet} />
+            <Route path="/recipes" component={Recipes} />
           </Switch>
         </Layout>
       </div>

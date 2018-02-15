@@ -1,0 +1,39 @@
+.RecipeCard {
+  border: 2px solid #333;
+  border-radius: 4px;
+  text-align: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 17%;
+  overflow: hidden;
+  margin-bottom: 3%;
+}
+
+.RecipeCard img {
+  width: 46%;
+  float: left;
+}
+
+.Text {
+  display: block;
+  float: right;
+  width: 52%;
+  /*overflow-y: scroll;*/
+}
+
+.Text h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.Text h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #666;
+  font-size: 13px;
+}
+
+.Text p {
+  margin: 0;
+  font-size: 13px;
+}
